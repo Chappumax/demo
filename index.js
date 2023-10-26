@@ -3,11 +3,11 @@ const app = express();
 const port = 3000;
 
 app.get('/get', (req, res) => {
-    res.json({ message: 'GET request successful' });
+    res.json({ message: 'GET REQUEST SUCCESSFUL' });
 });
 
 app.post('/post', (req, res) => {
-    res.json({ message: 'POST request successful' });
+    res.json({ message: 'POST REQUEST SUCCESSFUL' });
 });
 
 app.listen(port, () => {

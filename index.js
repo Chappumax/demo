@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/api/getData', (req, res) => {
+app.get('/get', (req, res) => {
     res.json({ message: 'GET request successful' });
 });
 
-app.post('/api/postData', (req, res) => {
+app.post('/post', (req, res) => {
     res.json({ message: 'POST request successful' });
 });
 
